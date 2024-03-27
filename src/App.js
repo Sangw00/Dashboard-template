@@ -3,17 +3,17 @@ import SecondSide from "./Components/SecondSide";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full">
       <div className="flex">
     <FirstSide/>
     <SecondSide/>
 
-<div className="flex-3">
+<div className=" bg-gray-100 flex-1 flex flex-col  overflow-hidden md:w-72">
 
-      <div className="bg-stone-500 pl-0">3</div>
+   
 </div>
-<div className="flex-4">
-      <div className="bg-stone-400 ">4</div>
+<div className=" bg-gray-100 flex-2 flex flex-col  overflow-hidden md:w-72">
+     
 </div>
       </div>
       </div>
