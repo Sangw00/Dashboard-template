@@ -3,8 +3,8 @@ import SecondSide from "./Components/SecondSide";
 
 function App() {
   return (
-    <div className="App w-full">
-      <div className="flex">
+    <div className="App h-screen">
+      <div className="flex w-full h-full">
     <FirstSide/>
     <SecondSide/>
 
